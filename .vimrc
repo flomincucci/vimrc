@@ -38,15 +38,14 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'r'
 
-set statusline=%{fugitive#statusline()}%t%m%r%y%=%c,%l/%L\ %P
-
-"Spotify
-let g:spotify_prev_key = "<F10>"
-let g:spotify_playpause_key = "<F11>"
-let g:spotify_next_key = "<F12>"
-
 "Calendario
 let g:calendar_google_calendar = 1
 let g:calendar_google_task = 1
 nmap ,x :Calendar<CR>
 nmap ,sc :Calendar -view=year -split=vertical -width=27<CR>
+
+"Parentesis de colores
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
