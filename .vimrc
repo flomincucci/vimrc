@@ -14,8 +14,7 @@ set shiftwidth=4
 set expandtab
 
 "Colors
-set background=dark
-colorscheme solarized
+colorscheme solarized8_dark
 
 "Coding settings
 syntax on
