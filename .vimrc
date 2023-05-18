@@ -14,7 +14,9 @@ set shiftwidth=4
 set expandtab
 
 "Colors
-colorscheme solarized8_dark
+set background=dark
+colorscheme solarized
+let g:solarized_visibility = "normal"
 
 "Coding settings
 syntax on
